@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "SearXNG — Privacy Search Engine",
+  "name": "SearXNG — Privacy Search Engine — twkr.io",
   "version": "1.5",
   "author": "Erghel",
   "default_locale": "en",
@@ -18,11 +18,11 @@
   },
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "SearXNG",
-      "keyword": "@searxng, @searx, @sx",
-      "search_url": "https://searx.be/search?q={searchTerms}",
+      "name": "SearXNG — twkr.io",
+      "keyword": "@searxng, @searx, @sx", "@t",
+      "search_url": "https://twkr.io/search?q={searchTerms}",
       "favicon_url": "searxng128.webp",
-      "suggest_url": "https://searx.be/autocompleter?q={searchTerms}",
+      "suggest_url": "https://twkr.io/autocompleter?q={searchTerms}",
       "is_default": true
     }
   }
